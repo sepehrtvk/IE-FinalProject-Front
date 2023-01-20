@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Internet Engineering Class Homepage</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#start" class="navigation__link" target="_blank"
+              ><span>01</span>start</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#lectures" class="navigation__link" target="_blank"
+              ><span>02</span>course lectures</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#relatedBooks" class="navigation__link" target="_blank"
+              ><span>03</span>related books</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <header class="header" id="start">
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Internet Engineering</span>
+          <span class="heading-primary--sub"
+            >is where we are going to learn in this course</span
+          >
+        </h1>
+        <a href="#relatedBooks" class="btn btn--white btn--animated"
+          >See this course related books</a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="section-lectures" id="lectures">
+        <div class="row">
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <img src="./img/http_icon.png" class="feature-box__icon" />
+              <h3 class="heading-tertiary mb-1">http</h3>
+              <p class="feature-box__text">
+                Hypertext Transfer Protocol is an application-layer protocol for
+                transmitting hypermedia documents, such as HTML. It was designed
+                for communication between web browsers and web servers, but it
+                can also be used for other purposes.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <img src="./img/css_icon.png" class="feature-box__icon" />
+              <h3 class="heading-tertiary mb-1">html css</h3>
+              <p class="feature-box__text">
+                HTML (the Hypertext Markup Language) and CSS (Cascading Style
+                Sheets) are two of the core technologies for building Web pages.
+                HTML provides the structure of the page, CSS the layout, for a
+                variety of devices.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <img src="./img/js_icon.png" class="feature-box__icon" />
+              <h3 class="heading-tertiary mb-1">Javascript</h3>
+              <p class="feature-box__text">
+                JavaScript, often abbreviated as JS, is a programming language
+                that is one of the core technologies of the World Wide Web,
+                alongside HTML and CSS. As of 2022, 98% of websites use
+                JavaScript on the client side for webpage.
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="feature-box">
+              <img src="./img/go_icon.png" class="feature-box__icon" />
+              <h3 class="heading-tertiary mb-1">golang</h3>
+              <p class="feature-box__text">
+                Go is a statically typed, compiled programming language designed
+                at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is
+                syntactically similar to C, but with memory safety, garbage
+                collection, structural typing, and CSP-style concurrency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-books" id="relatedBooks">
+        <div class="text-center mb-2">
+          <h2 class="heading-secondary">MOST POPULAR BOOKS</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1"></div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Javascript Guide</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>By David Flanagan</li>
+                    <li>7th Edition</li>
+                    <li>Published at 2020</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Price</p>
+                    <p class="card__price-value">$44.00</p>
+                  </div>
+                  <a href="#popup1" class="btn btn--white">Buy Now !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2"></div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >Road To <br />
+                    React</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>By Robin Wieruch</li>
+                    <li>2022 Edition</li>
+                    <li>Published at 2022</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Price</p>
+                    <p class="card__price-value">$29.99</p>
+                  </div>
+                  <a href="#popup2" class="btn btn--white">Buy Now !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3"></div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >Introducing Go</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>By Caleb Doxsey</li>
+                    <li>First Edition</li>
+                    <li>Published at 2016</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Price</p>
+                    <p class="card__price-value">$32.00</p>
+                  </div>
+                  <a href="#popup3" class="btn btn--white">Buy Now !</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Class info</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by Sepehr Tavakoli for Internet Engineering Course Project
+            Copyright © by Sepehr Tavakoli.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="popup" id="popup1">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/Book1-1.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <d iv class="popup__right">
+          <a href="#section-books" class="popup__close">×</a>
+          <h2 class="heading-secondary mb-1">Start reading now</h2>
+          <h3 class="heading-tertiary mb-1">
+            Important – Please read these terms before buying the book
+          </h3>
+          <p class="popup__text">
+            JavaScript is the programming language of the web and is used by
+            more software developers today than any other programming language.
+            For nearly 25 years this best seller has been the go-to guide for
+            JavaScript programmers. The seventh edition is fully updated to
+            cover the 2020 version of JavaScript, and new chapters cover
+            classes, modules, iterators, generators, Promises, async/await, and
+            metaprogramming. You’ll find illuminating and engaging example code
+            throughout. This book is for programmers who want to learn
+            JavaScript and for web developers who want to take their
+            understanding and mastery to the next level. It begins by explaining
+            the JavaScript language itself, in detail, from the bottom up. It
+            then builds on that foundation to cover the web platform and
+            Node.js.
+          </p>
+          <a
+            href="https://www.amazon.com/gp/product/1491952024"
+            class="btn btn--blue"
+            target="_blank"
+            >Buy now</a
+          >
+        </d>
+      </div>
+    </div>
+    <div class="popup" id="popup2">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/Book2-1.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <d iv class="popup__right">
+          <a href="#section-books" class="popup__close">×</a>
+          <h2 class="heading-secondary mb-1">Start reading now</h2>
+          <h3 class="heading-tertiary mb-1">
+            Important – Please read these terms before buying the book
+          </h3>
+          <p class="popup__text">
+            In "The Road to React" you will learn about all the fundamentals of
+            React.js with Hooks while building a full-blown React application
+            step by step. While you create the React application, every chapter
+            will introduce you to a new React key feature. However, there is
+            more than only the fundamentals: The book dives into related topics
+            (e.g. React with TypeScript, Testing, Performance Optimizations) and
+            advanced feature implementations like client- and server-side
+            searching. At the end of the book, you will have a fully working
+            deployed React application. Is it up to date? Programming books are
+            usually outdated soon after their release, but since this book is
+            self- published, I can update it as needed whenever a new version of
+            something related to this book gets released.
+          </p>
+          <a
+            href="https://www.amazon.com/Road-learn-React-pragmatic-React-js/dp/172004399X/ref=d_pd_sbs_sccl_2_3/130-5751593-0029724?pd_rd_w=m9yJh&content-id=amzn1.sym.3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_p=3676f086-9496-4fd7-8490-77cf7f43f846&pf_rd_r=MN81G3T0MAX9FR9FAENV&pd_rd_wg=XsyuS&pd_rd_r=c3fff6b6-0e60-41bd-b038-2e16c81b5390&pd_rd_i=172004399X&psc=1"
+            class="btn btn--blue"
+            target="_blank"
+            >Buy now</a
+          >
+        </d>
+      </div>
+    </div>
+    <div class="popup" id="popup3">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/Book3-1.jpg" alt="Tour photo" class="popup__img" />
+        </div>
+        <d iv class="popup__right">
+          <a href="#section-books" class="popup__close">×</a>
+          <h2 class="heading-secondary mb-1">Start reading now</h2>
+          <h3 class="heading-tertiary mb-1">
+            Important – Please read these terms before buying the book
+          </h3>
+          <p class="popup__text">
+            Perfect for beginners familiar with programming basics, this
+            hands-on guide provides an easy introduction to Go, the
+            general-purpose programming language from Google. Author Caleb
+            Doxsey covers the languageâ s core features with step-by-step
+            instructions and exercises in each chapter to help you practice what
+            you learn. Go is a general-purpose programming language with a clean
+            syntax and advanced features, including concurrency. This book
+            provides the one-on-one support you need to get started with the
+            language, with short, easily digestible chapters that build on one
+            another. By the time you finish this book, not only will you be able
+            to write real Go programs, you'll be ready to tackle advanced
+            techniques.
+          </p>
+          <a
+            href="https://www.amazon.com/dp/1491941952"
+            class="btn btn--blue"
+            target="_blank"
+            >Buy now</a
+          >
+        </d>
+      </div>
+    </div>
+  </body>
+</html>
